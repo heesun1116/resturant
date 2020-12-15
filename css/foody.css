@@ -1,0 +1,628 @@
+/* 모바일용 */
+/* 기본 css */
+.container{
+    width:80%;
+    margin:30px auto;
+    }
+    .cfixed:after{
+    display:block;
+    content:"";
+    clear:both;
+    }
+    /* 모 - 헤더 */
+    header .total_nav{
+        position: relative;
+    }
+
+    .header{
+    position:relative;
+    padding:18px 5%;
+    background:#575b5f;
+    }
+    .header .logo{
+    float:left;
+    }
+    .header .logo a h1{
+    color:#b8cb3b;
+    font-size:45px;
+    font-family:'Pacifico', cursive;
+    padding-bottom:10px;
+    }
+    .header .logo a h2{
+    color:#fff;
+    font-size:20px;
+    letter-spacing:5px;
+    }
+    .header .gnb{
+    display:block !important;
+    position:static;
+    float:right;
+    width:auto;
+    background:none;
+    }
+    .header .gnb li{
+    float:left;
+    margin-left:21px;
+    margin-top:25px;
+    }
+    .header .gnb li a{
+    padding:0;
+    font-size:16px;
+    color:#fff;
+    font-weight:bold;
+    transition:all 0.2s;
+    }
+    .header .gnb li a:hover{
+    text-decoration:underline;
+    }
+    
+    .header .gnb li a{
+    display:block;
+    padding:14px 0 14px 5%;
+    font-size:14px;
+    color:black;
+    transition:all 0.2s;
+    }
+
+    /* 모 - 슬라이더 */
+    .slider{
+    position:relative;
+    margin-bottom:70px;
+    }
+    .slider video{
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:auto;
+    overflow:hidden;
+    }
+    .slider-text{
+    position:absolute;
+    top:30%;
+    left:50%;
+    width: 100%;
+    transform: translate(-50%, -30%);
+    text-align:center;
+    }
+    .slider-text h1{
+    font-family:'Pacifico', cursive;
+    font-size:30px;
+    color:#fff;
+    padding-bottom:24px;
+    font-weight:bold;
+    }
+    .slider-text hr{
+    border:none;
+    border-top:2px dashed #fff;
+    width:50px;
+    margin:0 auto;
+    }
+    .slider-text h2{
+    color:#fff;
+    line-height:1.6;
+    margin-top:20px;
+    }
+    .slider_btn{
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%,-80%);
+    }
+    .slider_btn button{
+    background:#151d25;
+    border:none;
+    color:#fff;
+    font-weight:bold;
+    padding:10px 20px;
+    border-radius:2px;
+    border:1px solid snow;
+    outline: none;
+    cursor: pointer;
+    }
+    .slider_btn button:hover{
+    background:#fff;
+    color:#151d25;
+    }
+    /* 모 - 디스플레이 영역 */
+    .display-section-list img{
+    display:none;
+    }
+    
+    .display-section-list h1{
+    font-size:30px;
+    font-family:'Pacifico', cursive;
+    color:#151d25;
+    padding-bottom:40px;
+    }
+    .display-section-list hr{
+    border:none;
+    border-top:2px dashed #151d25;
+    width:60px;
+    padding-bottom:25px;
+    }
+    .display-section-list p{
+    line-height:1.8;
+    color:#a4aca6;
+    }
+    .display-section-list .dis-button button{
+    background:#151d25;
+    border:none;
+    color:#fff;
+    font-weight:bold;
+    padding:10px 30px;
+    border-radius:2px;
+    border:1px solid snow;
+    margin-top:30px;
+    outline: none;
+    cursor: pointer;
+    }
+    .display-section-list .dis-button button:hover{
+    background:#fff;
+    color:#151d25;
+    border:2px solid #151d25;
+    }
+    /* 모 - 디스플레이 영역 2 */
+    .display-section-2{
+    position:relative;
+    }
+    .display-section-2 img{
+    height:300px;
+    width:100%;
+    opacity:0.9;
+    
+    }
+    .display-section-2 h1{
+    position:absolute;
+    width: 100%;
+    text-align: center;
+    top:13%;
+    left:50%;
+    transform: translate(-50%,-13%);
+    color:#fff;
+    font-family:'PT Serif';
+    }
+    .display-section-2 h2{
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    top:28%;
+    left:50%;
+    transform: translate(-50%, -28%);
+    color:#fff;
+    font-family:'PT Serif';
+    }
+    
+    /* 모 - 메뉴 */
+    .show-menu{
+    margin-top:50px;
+    }
+    .show-menu-tit{
+    font-size:30px;
+    font-family:'Pacifico', cursive;
+    text-align:center;
+    padding-bottom:50px;
+    }
+    .menu-list .menu-img{
+    margin-bottom:10px;
+    }
+    .menu-list .menu-img a img{
+    width:100%;
+    height:350px;
+    }
+    .menu-list .menu-img a{
+    position:relative;
+    }
+    /* .menu-list .menu-img a:before{
+    display:block;
+    position:absolute;
+    top:2;
+    left:0;
+    z-index:10;
+    width:100%;
+    height:350px;
+    background:#000;
+    content:"";
+    opacity:0;
+    transition:all 0.2s;
+    }
+    .menu-list .menu-img a:hover:before{
+    opacity:0.86;
+    } */
+    .menu-list li{
+    position:relative;
+    }
+    .menu-list .menu-desc a{
+    text-align:center;
+    position:absolute;
+    z-index:30;
+    transition:all 0.3s;
+    top:-22.5px;
+    opacity:0;
+    width:100%;
+    height:350px;
+    background-color:rgba(0, 0,0, 0.5);
+    margin:0;
+    padding:0;
+    }
+    
+    .menu-list .menu-desc a:hover{
+    transform:translateY(23px);
+    opacity:1;
+    }
+    
+    .menu-list h1{
+    font-size:30px;
+    font-family:'Pacifico', cursive;
+    color:#fff;
+    padding-bottom:40px;
+    padding-top:50px;
+    }
+    
+    .menu-list p{
+    line-height:1.8;
+    color:#a4aca6;
+    }
+    .menu-list h3{
+    color:#fff;
+    font-size:20px;
+    padding-top:20px;
+    }
+    .enjoy{
+    display:block;
+    margin-top:50px;
+    margin-bottom: 50px;
+    }
+    .enjoy h1{
+    font-family:'Pacifico', cursive;
+    text-align:center;
+    font-size:20px;
+    margin-bottom:15px;
+    }
+
+    /* 모 - 프로모션 */
+    .promo-section{
+    position:relative;
+    margin-top:30px;
+    }
+    .promo-section video{
+    width:100%;
+    opacity:0.8;
+    }
+    .promo-section .promo-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    font-size:30px;
+    color:#fff;
+    font-weight:bold;
+    text-shadow:2px 1px 1px #151d25;
+    }
+    /* 모 - 구독 */
+    .subscribe-section{
+    margin-top:50px;
+    }
+    .subscribe-section .sub-1 h1{
+    font-family:'Pacifico', cursive;
+    font-size:20px;
+    padding-bottom:40px;
+    text-align:center;
+    }
+    .subscribe-section .sub-1 p{
+    text-align:center;
+    color:#575b5f;
+    margin-bottom:37px;
+    }
+    .subscribe-section .sub-1 input{
+    margin-bottom:37px;
+    padding:15px 5px;
+    border:1px solid #151d25;
+    width:62%;
+    float:left;
+    margin-left:5%;
+    margin-right:0;
+    }
+    .subscribe-section .sub-1 input::placeholder{
+    color:#575b5f;
+    text-align:center;
+    font-size:15px;
+    }
+    .subscribe-section .sub-1 button{
+    background:#151d25;
+    border:none;
+    color:#fff;
+    font-weight:bold;
+    padding:15px 25px;
+    border-radius:2px;
+    border:1px solid #151d25;
+    width:23%;
+    float:right;
+    margin-right:5%;
+    margin-left:0;
+    outline: none;
+    cursor: pointer;
+    }
+    .subscribe-section .sub-1 button:hover{
+    background:#fff;
+    color:#151d25;
+    border:1px solid #151d25;
+    }
+    .sub-img{
+    margin-top:0;
+    border:none;
+    padding:0;
+    }
+    .sub-img img{
+    width:100%;
+    height:350px;
+    margin-bottom:10px;
+    opacity:0.86;
+    }
+    /* 모 - 정보 */
+    .info-section{
+    margin-top:30px;
+    background:#27364a;
+    }
+    .info-section div{
+    float:left;
+    width:40%;
+    margin:10% 0 10% 10%;
+    color:#fff;
+    }
+    .info-section .location h1, .info-section .time h1{
+    font-size:20px;
+    margin-bottom:20%;
+    }
+    .info-section .location .location-list li, .info-section .time .time-list li{
+    margin-bottom:8%;
+    }
+    /* 모 - 푸터 */
+    .footer{
+    background:#151d25;
+    color:#fff;
+    }
+    .footer p{
+    font-size:20px;
+    padding:3%;
+    }
+    
+    @media all and (min-width:768px){
+    /* 태 - 헤더 */
+    .header{
+    position:static;
+    }
+    .header .gnb{
+    display:block !important;
+    position:static;
+    float:right;
+    width:auto;
+    background:none;
+    }
+    .header .gnb li{
+    float:left;
+    margin-left:21px;
+    margin-top:25px;
+    }
+    .header .gnb li a{
+    padding:0;
+    font-size:16px;
+    color:#fff;
+    font-weight:bold;
+    transition:all 0.2s;
+    }
+    .header .gnb li a:hover{
+    text-decoration:underline;
+    }
+
+    /* 태 - 슬라이더 */
+    .slider{
+    position:relative;
+    }
+    .slider video{
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:auto;
+    overflow:hidden;
+    }
+    .slider-text{
+    top:25%;
+    left:50%;
+    transform: translate(-50%,-25%);
+    }
+    .slider-text h1{
+    font-size:60px;
+    margin-bottom:20px;
+    }
+    .slider-text hr{
+    border-top:3px dashed #fff;
+    width:100px;
+    }
+    .slider-text h2{
+    margin-top:50px;
+    font-size:30px;
+    font-family:'Montserrat';
+    letter-spacing:2px;
+    }
+    .slider_btn{
+    top:75%;
+    left:50%;
+    transform: translate(-50%,-75%);
+    }
+    .slider_btn button{
+    font-size:15px;
+    padding:20px;
+    border:1px solid snow;
+    }
+    /* 태 - 디스플레이 영역 */
+    .display-section-list img{
+    display:block !important;
+    position:static;
+    float:left;
+    margin:0;
+    padding:0;
+    width:45%;
+    height:400px;
+    }
+    .display-section-list .dis-text{
+    width:45%;
+    float:right;
+    height:500px;
+    }
+    
+    /* 태 - 디스플레이 영역 2 */
+    .display-section-2 h1{
+    left:50%;
+    font-size:20px;
+    text-align: center;
+    width: 100%;
+    transform: translateX(-50%);
+    }
+    .display-section-2 h2{
+    left:50%;
+    transform: translateX(-50%);
+    font-size:20px;
+    }
+    /* 태 - 메뉴 */
+    .menu-list li {
+    float:left;
+    width:50%;
+    margin-top:0;
+    }
+
+    .enjoy h1{
+    font-size:30px;
+    padding-top: 150px;
+    }
+
+    /* 태 - 프로모션 */
+    /* 태 - 구독 */
+    .subscribe-section .sub-1 input{
+    width:65%;
+    }
+    .sub-img img{
+    float:left;
+    width:32%;
+    height:280px;
+    }
+    /* 태 - 정보 */
+    .info-section div{
+    float:left;
+    width:40%;
+    margin:5% 0 3% 10%;
+    color:#fff;
+    }
+    .info-section .location h1, .info-section .time h1{
+    font-size:30px;
+    margin-bottom:10%;
+    }
+    .info-section .location .location-list li, .info-section .time .time-list li{
+    font-size:15px;
+    float:left;
+    margin-right:5%;
+    }
+    /* 태 - 푸터 */
+    }
+    /* pc 용 */
+    @media all and (min-width:1132px){
+    
+    /* pc - 헤더 */
+    .header{
+        position: relative;
+    }
+    .header .gnb .welcomeList{
+        position: absolute;
+        top:100%;
+        width:300px;
+        background:black;
+    }
+    .total_nav{
+        display: block;
+    }
+    /* pc - 슬라이더 */
+    .slider{
+    position:relative;
+    }
+    .slider-text{
+    top:18%;
+    left:50%;
+    transform: translate(-50%,-18%);
+    }
+    .slider_btn{
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-60%);
+    }
+    /* pc - 디스플레이 영역 */
+    .display-section-list .dis-text h1{
+    font-size:40px;
+    }
+    .display-section-list .dis-text hr{
+    width:80px;
+    }
+    .display-section-list .dis-text p{
+    line-height:1.9;
+    }
+    .display-section-list
+    /* pc - 디스플레이 영역 2 */
+    .display-section-2 img{
+    height:auto;
+    }
+    /* pc - 메뉴 */
+    .show-menu-tit{
+    font-size:50px;
+    }
+    .menu-list li{
+    width:50%;
+    height:auto;
+    margin:0;
+    }
+    .menu-desc h1{
+    font-size:40px;
+    }
+    .menu-desc p{
+    font-size:20px;
+    padding:20px 40px;
+    }
+    .menu-desc h3{
+    font-size:30px;
+    font-weight:bold;
+    }
+
+    /* pc - 프로모션 */
+    .promo-section{
+        position: relative;
+    }
+    .promo-section .promo-text{
+    font-size:65px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    }
+    /* pc - 구독 */
+    .subscribe-section .sub-1 h1{
+    font-size:45px;
+    margin-bottom:20px;
+    }
+    .subscribe-section .sub-1 p{
+    font-size:25px;
+    margin-bottom:20px;
+    }
+    .sub-img{
+    margin-top:40px;
+    }
+    .sub-img img{
+    height:350px;
+    margin:0 auto;
+    margin-top:60px;
+    }
+    /* pc - 정보 */
+    /* pc - 푸터 */
+    }
